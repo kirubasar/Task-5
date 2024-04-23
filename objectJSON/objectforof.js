@@ -22,9 +22,9 @@ const myResume = {
 //console.log(myResume);
 for(let prop of Object.keys(myResume)) {
 //console.log(prop);
-console.log(prop, myResume[prop])
+    console.log(prop, myResume[prop]);
 }
-console.log('----------------')
+console.log('----------------');
 for(let val of Object.values(myResume)) {
     console.log(val);
 }

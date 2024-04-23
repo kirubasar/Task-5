@@ -21,16 +21,16 @@ const myResume = {
 }
 for(let key in myResume){
     //console.log(key)
-    let values = myResume[key]
-console.log(key, values);
+    let values = myResume[key];
+    console.log(key, values);
 }
-console.log('...............')
+console.log('...............');
 for(let key in myResume.skills){
-console.log(`${key}:${myResume.skills[key]}`)
+    console.log(`${key}:${myResume.skills[key]}`);
 }
-console.log('...............')
+console.log('...............');
 for(let key in myResume.contact){
-    console.log(`${key}:${myResume.contact[key]}`)
+    console.log(`${key}:${myResume.contact[key]}`);
 }
 
 

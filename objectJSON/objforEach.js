@@ -22,13 +22,13 @@ const myResume = {
 //console.log(myResume);
 Object.keys(myResume).forEach(key => {
     let value = myResume[key];
-    console.log(key, value)
+    console.log(key, value);
 });
-console.log('----------------')
+console.log('----------------');
 Object.values(myResume).forEach(value => {
-    console.log(value)
+    console.log(value);
 });
-console.log('----------------')
+console.log('----------------');
 Object.entries(myResume).forEach(([key, value]) =>{
     console.log(key, value);
 });
